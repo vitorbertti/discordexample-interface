@@ -15,7 +15,7 @@ export const Grid = styled.div`
 
 // SL - Server List
 // SN - Server Name
-// CI - CHannel Info
+// CI - Channel Info
 // CL - Channel List
 // CD - Channel Data
 // UL - User List
