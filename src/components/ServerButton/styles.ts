@@ -10,7 +10,7 @@ export const Button = styled.button<Props>`
    width: 48px;
    height: 48px;
    margin-bottom: 8px;
-   border-radius: 50%;
+   border-radius: ${(props) => (props.isHome ? '30%' : '50%')};
    background-color: ${(props) => (props.isHome ? 'var(--home)' : 'var(--primary)')};
    position: relative;
    cursor: pointer;
@@ -18,7 +18,7 @@ export const Button = styled.button<Props>`
 
    &:active,
    &:hover {
-      border-radius: 16%;
+      border-radius: 30%;
       background-color: ${(props) => (props.isHome ? 'var(--home)' : 'var(--discord)')};
    }
 
